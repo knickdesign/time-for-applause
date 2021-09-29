@@ -21,7 +21,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: lust, serif;
+    font-family: lust, serif!important;
     font-weight: 700;
     font-style: normal;
 }
