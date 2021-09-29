@@ -10,3 +10,18 @@ Version:  1.0
 License:  GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html                 
 */
+
+body {
+    background-color: #FAFFFF!important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: lust, serif;
+    font-weight: 700;
+    font-style: normal;
+}
