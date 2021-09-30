@@ -15,17 +15,9 @@ $header_class = $show_title ? 'site-title' : 'screen-reader-text';
 ?>
 
 <div class="site-branding">
-
-	<?php if ( has_custom_logo() && ! $show_title ) : ?>
-		<div class="site-logo"><?php the_custom_logo(); ?></div>
-	<?php endif; ?>
-
-	<?php if ( $description && true === get_theme_mod( 'display_title_and_tagline', true ) ) : ?>
+	<?php if ( $description && true ) : ?>
 		<p class="site-description">
 			<?php echo $description; // phpcs:ignore WordPress.Security.EscapeOutput ?>
 		</p>
 	<?php endif; ?>
 </div><!-- .site-branding -->
-<?php if ( has_custom_logo() && $show_title ) : ?>
-	<div class="site-logo"><?php the_custom_logo(); ?></div>
-<?php endif; ?>

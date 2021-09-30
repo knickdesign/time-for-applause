@@ -18,7 +18,7 @@
 		<?php twenty_twenty_one_post_thumbnail(); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content">
+	<div class="main-content">
 		<?php
 		the_content();
 

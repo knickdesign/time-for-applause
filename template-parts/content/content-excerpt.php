@@ -15,7 +15,7 @@
 
 	<?php get_template_part( 'template-parts/header/excerpt-header', get_post_format() ); ?>
 
-	<div class="entry-content">
+	<div class="main-content">
 		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
 	</div><!-- .entry-content -->
 
