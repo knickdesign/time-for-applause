@@ -59,6 +59,11 @@ body {
     padding: 0 16px;
 }
 
+#content {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
 
 /* GRID AND COLUMNS */
 
@@ -69,7 +74,8 @@ body {
 
 /* NAV STYLES */
 
-#tfa-custom-body p.site-description {
+#tfa-custom-body p.site-description,
+#tfa-custom-body span.site-description {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -134,10 +140,15 @@ body {
 
 .content-frontpage .wp-block-columns .wp-block-column:first-child figure img {
     position: absolute;
+    top: 40%;
+}
+
+.content-frontpage .wp-block-columns .wp-block-column:last-child figure img {
+    transform: translateY(-10rem);
 }
 
 .content-frontpage .wp-block-columns .wp-block-column figure img {
-    width: 38vw;
+    width: 35vw;
 }
 
 .wp-block-image img {
