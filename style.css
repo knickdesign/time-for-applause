@@ -99,6 +99,26 @@ body {
     max-width: 100%;
 }
 
+#tfa-custom-body .footer-navigation {
+    margin: 0;
+}
+
+#tfa-custom-body .footer-navigation a {
+    text-decoration: none;
+}
+
+#tfa-custom-body .footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+
+/* footer */
+
+.copyright-footer .site-description {
+    margin: 0;
+    padding: 12px 0;
+}
+
 
 /* CONTENT FRONT PAGE */
 
