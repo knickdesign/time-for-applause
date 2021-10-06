@@ -11,7 +11,7 @@
 
 <?php if ( has_nav_menu( 'primary' ) ) : ?>
 	<nav id="site-navigation" class="primary-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary menu', 'twentytwentyone' ); ?>">
-	<div class="menu-trigger">
+	<div class="menu-trigger" onclick="toggleMenu()">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hamburger-menu.svg">
 	</div>
 	<div class="menu-wrapper">
