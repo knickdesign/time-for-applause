@@ -23,6 +23,14 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
     justify-content: space-between;
 }
 
+.show {
+    display: block!important;
+}
+
+.hide {
+    display: none!important;
+}
+
 
 /* MAIN STYLES */
 
@@ -47,7 +55,7 @@ body {
 }
 
 #tfa-custom-body h1 {
-    font-size: 60px;
+    font-size: 7vh;
 }
 
 
@@ -152,6 +160,10 @@ nav.primary-navigation {
     font-family: lust, serif!important;
     font-size: 6vh;
     padding: 3vh;
+}
+
+#menu-trigger--close {
+    transform: translateX(-5px);
 }
 
 

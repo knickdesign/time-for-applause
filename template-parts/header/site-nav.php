@@ -13,7 +13,8 @@
 	
 	<nav id="site-navigation" class="primary-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary menu', 'twentytwentyone' ); ?>">
 	<div id="menu-trigger" class="menu-trigger" onclick="toggleMenu()">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hamburger-menu.svg">
+		<img id="menu-trigger--hamburger" class="show" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/hamburger-menu.svg">
+		<img id="menu-trigger--close" class="hide" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/img/close-menu.svg">
 	</div>
 	<div id="menu-wrapper" class="menu-wrapper menu-closed">
 		<div class="multi-menu-wrapper">
