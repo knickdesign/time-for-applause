@@ -11,4 +11,9 @@ function my_theme_enqueue_styles() {
         array( $parenthandle ),
         $theme->get('Version') // this only works if you have Version in the style header
     );
-}?>
+}
+function mytheme_custom_excerpt_length( $length ) {
+    return 30;
+}
+add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );
+?>
