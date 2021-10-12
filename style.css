@@ -70,6 +70,10 @@ body {
     font-size: 7vh;
 }
 
+#tfa-custom-body p {
+    line-height: 1.4;
+}
+
 
 /* CONTAINER STYLES */
 
@@ -86,6 +90,10 @@ body {
 
 
 /* HEADER STYLES */
+
+#tfa-custom-body .site-branding {
+    margin-top: 0;
+}
 
 .header-logo-container--big,
 .header-logo-container--small {
