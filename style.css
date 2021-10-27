@@ -400,6 +400,16 @@ footer.footer {
     #tfa-custom-body .intro-text-frontPage {
         margin-bottom: 0;
     }
+    .content-frontpage .wp-block-columns .wp-block-column:last-child {
+        margin-top: 80px!important;
+    }
+    #tfa-custom-body .wp-block-columns .wp-block-column {
+        max-width: 80%;
+        height: auto;
+    }
+    .wp-block-column {
+        margin: 0 auto!important;
+    }
 }
 
 @media only screen and (max-width: 768px) {
