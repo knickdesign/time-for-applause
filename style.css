@@ -205,6 +205,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 4px;
+    margin-right: 20px;
 }
 
 #main-header {
@@ -378,9 +379,55 @@ footer.footer {
     }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 991px) {
     .wp-block-columns {
         flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #tfa-custom-body h1 {
+        font-size: 5vh;
+    }
+    #tfa-custom-body .logo-wrapper {
+        margin-top: 20px;
+        width: 30%;
+    }
+    div.intro-text-frontPage .wp-block-column {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    div.intro-text-frontPage .wp-block-column {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    #tfa-custom-body p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    div.intro-text-frontPage .wp-block-column {
+        max-width: calc( 100vw - 32px);
+        margin: 0 auto;
+    }
+    #tfa-custom-body .logo-wrapper {
+        margin-top: 0px;
+        width: 40%;
+    }
+    #tfa-custom-body p.site-description,
+    #tfa-custom-body span.site-description {
+        font-size: 14px;
+        margin-right: 20px;
+    }
+    #tfa-custom-body div.site-branding {
+        margin-right: 20px;
+    }
+    .intro-text-frontPage-helper {
+        bottom: 0px;
     }
 }
 
