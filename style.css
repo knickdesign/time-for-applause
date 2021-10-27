@@ -397,6 +397,9 @@ footer.footer {
         max-width: 50%;
         margin: 0 auto;
     }
+    #tfa-custom-body .intro-text-frontPage {
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -416,7 +419,7 @@ footer.footer {
     }
     #tfa-custom-body .logo-wrapper {
         margin-top: 0px;
-        width: 40%;
+        width: 50%;
     }
     #tfa-custom-body p.site-description,
     #tfa-custom-body span.site-description {
