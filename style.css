@@ -51,6 +51,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
         font-family: lust, serif!important;
         font-weight: 700;
         margin-bottom: 15px;
+        max-width: 980px;
     }
     
     #tfa-custom-body h2,
