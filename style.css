@@ -188,8 +188,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
     }
     
     #tfa-custom-body #nf-field-10 {
-        padding: 0;
-        text-decoration: underline;
+        border: 1px solid #08F7FE;
         transition: all .1s;
     }
     
