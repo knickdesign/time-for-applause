@@ -197,6 +197,16 @@ body {
     border: 1px solid #09FBD3;
 }
 
+#tfa-custom-body #nf-field-10 {
+    padding: 0;
+    text-decoration: underline;
+    transition: all .1s;
+}
+
+#tfa-custom-body #nf-field-10:hover {
+    font-weight: 600;
+}
+
 
 /* NAV STYLES */
 
