@@ -286,6 +286,26 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
     #menu-trigger--close {
         transform: translateX(-5px);
     }
+    
+    @media only screen and (max-width: 768px) {
+        #tfa-custom-body .primary-menu-container .menu-wrapper__menu-list {
+            padding: 0;
+        }
+        #tfa-custom-body .primary-menu-container li a {
+            font-size: 4vh;
+            padding: 0;
+            padding-top: 10px;
+        }
+        #tfa-cutom-body .footer-navigation-wrapper {
+            margin-top: 20px;
+        }
+        #tfa-cutom-body .footer-navigation-wrapper li {
+            line-height: 1;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
     /* footer */
     
     footer.footer {
