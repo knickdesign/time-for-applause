@@ -305,6 +305,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
             width: 100%;
             text-align: center;
         }
+        #tfa-custom-body .menu-wrapper {
+            margin-top: 140px;
+        }
     }
     /* footer */
     
