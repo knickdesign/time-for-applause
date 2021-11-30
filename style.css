@@ -383,6 +383,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
         #tfa-custom-body .intro-text-frontPage {
             height: 70vh;
         }
+        .content-subpage .wp-block-columns .wp-block-column:last-child {
+            margin-top: 80px!important;
+        }
     }
     
     @media only screen and (max-width: 992px) {
@@ -421,6 +424,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
             font-size: 16px;
         }
         #tfa-custom-body .linked-page img {
+            display: none;
+        }
+        #tfa-custom-body .header-logo-container--small__inner__img-container {
             display: none;
         }
         #tfa-custom-body .linked-page {
