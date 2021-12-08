@@ -318,6 +318,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
             display: block;
             width: 100%;
             text-align: center;
+            padding-top: 15px;
         }
         #tfa-custom-body .footer-navigation-wrapper li a {
             padding-right: 0;
