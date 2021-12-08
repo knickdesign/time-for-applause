@@ -26,6 +26,7 @@ get_header();
     </div>
 </div>
 <div class="intro-text-frontPage">
+    <div class="intro-text-frontPage__helper">
     <div class="wp-block-columns intro-text-frontPage-helper big-container">
         <div class="wp-block-column"></div>
         <div class="wp-block-column">
@@ -41,6 +42,7 @@ get_header();
             </div>
         </div>
         <div class="wp-block-column"></div>
+    </div>
     </div>
 </div>
 
