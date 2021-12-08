@@ -54,10 +54,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
         max-width: 980px;
     }
     
-    #tfa-custom-body .intro-text-frontPage {}
-    
     #tfa-custom-body .wp-block-columns.intro-text-frontPage-helper.big-container {
-        width: 100%
+        width: calc(100vw - 32px);
+        max-width: 1700px;
     }
     
     #tfa-custom-body h2,
